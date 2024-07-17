@@ -63,3 +63,14 @@ print(f'Цифра позиции сотен равна {hundred}')
 print(f'Цифра позиции десятков равна {ten}')
 print(f'Цифра позиции едениц равна {one}')
 '''
+
+#4th lesson
+
+# оператор сравнения
+answer = input('Какой сейчас год?: ')
+if answer == '2024':
+    print('Right!')
+else:
+    print('NO!')
+    2
+print('Program complited')
