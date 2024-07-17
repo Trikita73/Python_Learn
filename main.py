@@ -148,3 +148,29 @@ while i < 10:
 else:
     print(f'Здесь нет числа {number}')
 '''
+
+#9th lesson
+
+'''
+# Функция def,  возврат return
+x = 10
+
+def add_to_x(y):
+    x = 5
+    x = x + y
+    print(f'x внутри функции: {x}')
+    
+add_to_x(3)
+
+print(f'x за переделами функции {x}')
+'''
+
+'''
+def max_number(x, y):
+    if x > y:
+        return x
+    else:
+        return y
+    
+print(max_number(5, 8))
+'''
