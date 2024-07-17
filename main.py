@@ -131,3 +131,20 @@ for i in range(3):
         for k in range(7):
             print(i, j, k)
 '''
+
+#8th lesson
+
+'''
+#Цикл while, break, continue, pass
+i = 0
+number = -5
+while i < 10:
+    if i == number:
+        print(f'Здесь есть число {number}')
+        i += 1
+        continue
+    break
+    i += 1
+else:
+    print(f'Здесь нет числа {number}')
+'''
