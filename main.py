@@ -104,3 +104,20 @@ elif day == 7:
 else:
     print('error')
 '''
+
+#6th lesson
+
+'''
+# Вложенный оператор
+login = input()
+
+if login == 'admin':
+    print('Логин введен верно!')
+    password = input()
+    if password == '123':
+        print('пароль введен верно!')
+    else:
+        print('пароль введен неверно!')
+else:
+    print('Логин введен неверно!')
+'''
