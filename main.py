@@ -66,6 +66,7 @@ print(f'Цифра позиции едениц равна {one}')
 
 #4th lesson
 
+'''
 # оператор сравнения
 answer = input('Какой сейчас год?: ')
 if answer == '2024':
@@ -74,3 +75,32 @@ else:
     print('NO!')
     2
 print('Program complited')
+'''
+
+#5th lesson
+
+'''
+# Тернарный оператор
+true_value if condition else false_calue
+'''
+
+'''
+#elif
+day = int(input())
+if day == 1:
+    print('monday')
+elif day ==2:
+    print('truesday')
+elif day == 3:
+    print('wednesday')
+elif day == 4:
+    print('thursday')
+elif day == 5:
+    print('friday')
+elif day == 6:
+    print('saturday')
+elif day == 7:
+    print('sunday')
+else:
+    print('error')
+'''
