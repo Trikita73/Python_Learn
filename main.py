@@ -121,3 +121,13 @@ if login == 'admin':
 else:
     print('Логин введен неверно!')
 '''
+
+#7th lesson
+
+'''
+# Цикл for
+for i in range(3):
+    for j in range(5):
+        for k in range(7):
+            print(i, j, k)
+'''
